@@ -26,7 +26,7 @@ export default {
         fetch(this.uri) //we don't send any data, we just use GET method
         .then((res) => res.json())
         .then((data) => {
-            console.log(data)
+            // console.log(data)
             this.title = data.title
             this.details = data.details
         })
