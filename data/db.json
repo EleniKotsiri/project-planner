@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Go to TRX-Cross class @18.00",
+      "details": "Lorem ipsum lorem lorem lorem Lauren",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "title": "Visit my physiotherapist",
+      "details": "Lorem ipsum",
+      "complete": true
+    }
+  ]
+}
