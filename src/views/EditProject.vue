@@ -4,7 +4,8 @@
     <input type="text" v-model="title" required>
     <label>Details:</label>
     <textarea v-model="details" required></textarea>
-    <button>Edit Project</button>
+    <input type="submit" value="Edit Project" id="submitBtn">
+    <button @click.prevent="this.$router.push('/')">Cancel</button>
   </form>
 </template>
 

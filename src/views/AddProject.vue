@@ -4,7 +4,8 @@
     <input type="text" v-model="title" required>
     <label>Details:</label>
     <textarea v-model="details" required></textarea>
-    <button>Add Project</button>
+    <input type="submit" value="Add Project" id="submitBtn">
+    <button @click.prevent="this.$router.push('/')">Cancel</button>
   </form>
 
 </template>
@@ -74,15 +75,20 @@ export default {
     box-sizing: border-box;
     height: 100px;
   }
-  form button {
-    display: block;
+  form button, #submitBtn {
+    display: inline-block;
+    width: 50%;
     margin: 20px auto 0;
-    background: #00ce89;
+    background: #00e699;
     color: white;
     padding: 10px;
     border: 0;
     border-radius: 6px;
     font-size: 16px;
   }
+
+  /* #submitBtn {
+    background: #00ce89;
+  } */
 
 </style>
